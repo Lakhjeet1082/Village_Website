@@ -1,0 +1,19 @@
+.v{
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    padding-left: 10px;
+}
+img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border: 8px solid slategray;
+}
+main{
+    margin-left: 220px;
+}
+img:hover{
+    transform: scale(2,2);
+}

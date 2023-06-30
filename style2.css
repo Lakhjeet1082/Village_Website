@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    height:100vh;
+    width: 100%;
+    background-image: url(back-image.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+    cursor: pointer;
+}
+.village {
+    position: relative;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 120px;
+    margin-left: 200px;
+    color:#232d60;
+}
+.village .btn{
+    display: inline block;
+    background: linear-gradient(45deg,#87adfe,#ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    left:-80px ;
+    bottom: 180px;
+}
+.social-links a{
+    text-decoration: none;
+    padding-right: 20px;
+    color:#381a5a ;
+}
